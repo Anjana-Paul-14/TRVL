@@ -22,6 +22,21 @@
                             home
                         </link>
                     </li>
+                    <li className='nav-item'>
+                        <link to='/services' className='nav-links' onClick={closeMobileMenu}> 
+                            Services
+                        </link>
+                    </li>
+                    <li className='nav-item'>
+                        <link to='/products' className='nav-links' onClick={closeMobileMenu}> 
+                            Products
+                        </link>
+                    </li>
+                    <li className='nav-item'>
+                        <link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}> 
+                            Sign Up
+                        </link>
+                    </li>
                 </ul>
             </div>
         </nav>
