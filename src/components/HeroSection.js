@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
+import '../App.css';
 
-function heroSection() {
+function HeroSection() {
   return (
     <div className='hero-container'>
         <h1>Adventure awaits</h1>
@@ -10,10 +11,13 @@ function heroSection() {
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                 Get strated
             </Button>
+            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+                Watch
+            </Button>
         </div>
 
     </div>
   )
 }
 
-export default heroSection
+export default HeroSection
